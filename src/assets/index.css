@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .the-Counter {
+    @apply mt-3 px-4 py-2 border border-slate-300 rounded-2xl inline-block shadow-lg hover:bg-slate-500 hover:text-white font-semibold cursor-pointer transition duration-300;
+  }
+
+  .btn-plus {
+    @apply mx-3 px-3 py-2 bg-slate-400 rounded-3xl shadow-lg text-white hover:bg-white hover:text-slate-600 font-semibold border border-slate-200 cursor-pointer transition duration-300;
+  }
+
+  .btn-minus {
+    @apply px-3 py-2 bg-slate-400 rounded-3xl shadow-lg text-white hover:bg-white hover:text-slate-600 font-semibold border border-slate-200 cursor-pointer transition duration-300;
+  }
+
+  .inputVModel {
+    @apply px-3 py-2 block mx-auto rounded-2xl shadow-lg border border-sky-400 focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-300;
+  }
+}
